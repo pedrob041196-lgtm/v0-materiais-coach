@@ -86,7 +86,7 @@ export default function Home() {
       <footer className="border-t border-border py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2026 Minha App. Todos os direitos reservados.
+            © {new Date().getFullYear()} Minha App. Todos os direitos reservados.
           </p>
         </div>
       </footer>
